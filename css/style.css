@@ -266,6 +266,7 @@ a {
     font-size: 18px;
     font-weight: 700;
     border-radius: 0 15px 15px 0;
+    cursor: pointer;
 }
 
 .search-submit-xs {
