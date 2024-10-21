@@ -3,6 +3,7 @@
 /****** General ***********/
 * {
     font-family: 'Raleway', sans-serif;
+    box-sizing: border-box;
 }
 
 :root {
@@ -29,7 +30,6 @@ body {
     width: 100%;
     max-width: 1440px;
     padding: 0 50px;
-    box-sizing: border-box;
 }
 
 main>* {
@@ -115,7 +115,6 @@ a {
     background-color: var(--main-bg-color);
     border-radius: 20px;
     padding: 30px;
-    box-sizing: border-box;
 }
 
 
@@ -173,7 +172,6 @@ a {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    box-sizing: border-box;
 }
 
 .populaires-cards .card-title {
@@ -189,10 +187,43 @@ a {
     margin-bottom: 5px;
 }
 
+/*********Activities*******/
+
+.activities-cards {
+    display: grid;
+    width: 100%;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 30px;
+    padding: 30px;
+}
+
+.card-activities {
+    height: 439px;
+    padding: 0;
+}
+
+.card-activities img {
+    height: 380px;
+    width: 100%;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.card-activities h3 {
+    padding-top: 15px;
+    /*height: calc(100% - 380px); A voir*/
+    align-content: center;
+    padding-left: 19px;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 19px;
+}
+
 .topbar {
     display: flex;
     justify-content: space-between;
     height: 79px;
+    margin-bottom: 30px;
 }
 
 .topbar-logo {
