@@ -301,6 +301,10 @@ a {
 
 .filters-button {
     border-radius: 50px;
+    background: none;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 21px;
     border: 1px solid var(--border);
     height: 100%;
     display: flex;
