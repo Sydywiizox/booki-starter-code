@@ -11,6 +11,11 @@
     --main-bg-color: #F2F2F2;
     --filter-bg-color: #DEEBFF;
     --border: #D9D9D9;
+    --enormous-space: 50px;
+    --big-space: 35px;
+    --medium-space: 30px;
+    --small-space: 20px;
+    --tiny-space: 15px;
 }
 
 
@@ -51,11 +56,11 @@ h3, .big-font {
     width: 100%;
     max-width: 1440px;
     min-width: 320px;
-    padding: 0 50px;
+    padding: 0 var(--enormous-space);
 }
 
 main>* {
-    margin-bottom: 35px;
+    margin-bottom: var(--big-space);
 }
 
 a {
@@ -109,7 +114,7 @@ a {
 .hebergements-and-populaires section {
     background-color: var(--main-bg-color);
     border-radius: 20px;
-    padding: 30px;
+    padding: var(--medium-space);
 }
 
 
@@ -122,8 +127,8 @@ a {
     display: grid;
     width: 100%;
     grid-template-columns: repeat(3, 1fr);
-    gap: 30px;
-    padding: 30px 0;
+    gap: var(--medium-space);
+    padding: var(--medium-space) 0;
 }
 
 .hebergements-cards a{
@@ -163,7 +168,7 @@ a {
 
 .populaires-cards .card-content {
     width: 67%;
-    padding-left: 15px;
+    padding-left: var(--tiny-space);
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -181,18 +186,18 @@ a {
 /*********Activities*******/
 
 .activities {
-    padding: 30px;
+    padding: var(--medium-space);
 }
 
 .activities-cards {
     display: grid;
     width: 100%;
     grid-template-columns: repeat(4, 1fr);
-    gap: 30px;
+    gap: var(--medium-space);
 }
 
 .activities-title {
-    padding-bottom: 30px;
+    padding-bottom: var(--medium-space);
 }
 
 .card-activities {
@@ -226,11 +231,11 @@ a {
 .footer-column {
     display: flex;
     flex-direction: column;
-    padding: 20px;
+    padding: var(--small-space);
 }
 
 .footer-column > * {
-    padding-bottom: 15px;
+    padding-bottom: var(--tiny-space);
 }
 
 .footer-column > *:last-child {
@@ -243,7 +248,7 @@ a {
     display: flex;
     justify-content: space-between;
     height: 79px;
-    margin-bottom: 30px;
+    margin-bottom: var(--medium-space);
 }
 
 .topbar-logo {
@@ -297,7 +302,7 @@ a {
 }
 
 .search-area > * {
-    margin-bottom: 35px;
+    margin-bottom: var(--big-space);
 }
 
 .search-area > *:last-child {
@@ -445,7 +450,7 @@ a {
 
     .populaires {
         width: 100%;
-        margin-top: 50px;
+        margin-top: var(--enormous-space);
     }
 
     .populaires-cards {
@@ -471,7 +476,7 @@ a {
     }
 
     .filters-label {
-        margin-bottom: 20px;
+        margin-bottom: var(--small-space);
         height: auto;
     }
 
@@ -492,13 +497,13 @@ a {
         flex-direction: column;
         justify-content: flex-start;
         height: 115px;
-        margin-bottom: 30px;
+        margin-bottom: var(--medium-space);
     }
     
     .topbar-logo {
         height: 19px;
         align-self: center;
-        margin: 30px;
+        margin: var(--medium-space);
     }
     
     .topbar-menu {
@@ -525,7 +530,7 @@ a {
     }
 
     .search-area {
-        padding: 0 20px;
+        padding: 0 var(--small-space);
     }
 
     .searchbar {
@@ -557,7 +562,7 @@ a {
 
     .filters-button {
         width: 163px;
-        margin-bottom: 20px;
+        margin-bottom: var(--small-space);
     }
 
     .filters-button span {
@@ -569,7 +574,7 @@ a {
         order: -1;
         margin-top: 0;
         border-radius: 0;
-        padding: 30px 20px;
+        padding: var(--medium-space) var(--small-space);
     }
 
     .populaires-cards {
@@ -584,13 +589,13 @@ a {
 
     .populaires-cards .card {
         width: 100%;
-        margin-top: 15px;
+        margin-top: var(--tiny-space);
     }
 
     section.hebergements {
         background-color: #fff;
-        padding: 20px;
-        margin-top: 15px;
+        padding: var(--small-space);
+        margin-top: var(--tiny-space);
     }
 
     .hebergements-cards {
@@ -603,7 +608,7 @@ a {
     .hebergements-cards a {
         width: 335px;
         margin: auto;
-        margin-top: 15px;
+        margin-top: var(--tiny-space);
     }
 
     .hebergements-cards img {
@@ -611,11 +616,11 @@ a {
     }
 
     .hebergements-cards {
-        margin-bottom: 15px;
+        margin-bottom: var(--tiny-space);
     }
 
     .activities {
-        margin-top: 35px;
+        margin-top: var(--big-space);
     }
 
     .activities-cards {
@@ -628,7 +633,7 @@ a {
     .activities-cards a {
         width: 315px;
         margin: auto;
-        margin-top: 15px;
+        margin-top: var(--tiny-space);
     }
 
     .activities-cards img {
@@ -643,11 +648,11 @@ a {
         display: flex;
         flex-direction: column;
         height: auto;
-        padding: 30px;
+        padding: var(--medium-space);
     }
 
     .footer-column {
-        padding: 0 0 50px 0;
+        padding: 0 0 var(--enormous-space) 0;
     }
 
     .footer-column:last-child {
