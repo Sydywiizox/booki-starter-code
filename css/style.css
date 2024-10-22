@@ -13,33 +13,7 @@
     --border: #D9D9D9;
 }
 
-/******Fonts******/
 
-.enormous-font {
-    font-weight: 700;
-    font-size: 22px;
-    line-height: 25.83px;
-}
-.big-font {
-    font-weight: 700;
-    font-size: 18px;
-    line-height: 21.13px;
-}
-.medium-font {
-    font-weight: 700;
-    font-size: 16px;
-    line-height: 18.78px;
-}
-.small-font {
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 18.78px;
-}
-.tiny-font {
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 16.44px;
-}
 
 .fa-solid {
     color: var(--main-color);
@@ -49,6 +23,28 @@ body {
     display: flex;
     justify-content: center;
     color: #000;
+    line-height: 1.17rem;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+/******Fonts******/
+
+h1, h2 {
+    font-weight: 700;
+    font-size: 22px;
+}
+h3, .big-font {
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.medium-font {
+    font-size: 16px;
+}
+
+.small-font {
+    font-size: 14px;
 }
 
 .main-container {
@@ -400,7 +396,6 @@ a {
 .filters-button span {
     font-weight: 700;
     font-size: 17px;
-    line-height: 19.96px;
 }
 
 .filters-button:hover{
@@ -409,6 +404,7 @@ a {
 
 .filters-button i {
     padding-right: 10px;
+    font-size: 22px;
 }
 
 .info {
@@ -481,7 +477,6 @@ a {
 
     .filters-button span {
         font-size: 16px;
-        line-height: 18.78px;
     }
 }
 
