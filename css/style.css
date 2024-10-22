@@ -430,10 +430,10 @@ a {
     margin-right: 10px;
 }
 
-
-
-
-
+.info-i i {
+    width: 24px;
+    text-align: center;
+}
 
 /* Le code ci-dessous correspond à la version responsive uniquement */
 
@@ -534,12 +534,14 @@ a {
     }
 
     .searchbar {
-        width: 335px;
+        width: 89%;
+        max-width: 335px;
         margin: auto;
     }
 
     .search-input {
-        width: 236px;
+        width: 63%;
+        max-width: 236px;
     }
     
     .searchbar>* {
@@ -583,7 +585,8 @@ a {
     }
 
     .populaires-cards a {
-        width: 335px;
+        width: 89%;
+        max-width: 335px;
         margin: auto;
     }
 
@@ -606,7 +609,8 @@ a {
     }
 
     .hebergements-cards a {
-        width: 335px;
+        width: 89%;
+        max-width: 335px;
         margin: auto;
         margin-top: var(--tiny-space);
     }
@@ -631,7 +635,8 @@ a {
     }
 
     .activities-cards a {
-        width: 315px;
+        width: 84%;
+        max-width: 315px;
         margin: auto;
         margin-top: var(--tiny-space);
     }
