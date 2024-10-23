@@ -597,7 +597,7 @@ a {
     }
 
     .filters-button {
-        width: min(48.5%, 162.5px);
+        width: min(48.51%, 162.5px);
         margin: 0 0 var(--small-space) 0;
     }
 
