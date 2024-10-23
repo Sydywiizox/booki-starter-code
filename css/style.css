@@ -227,7 +227,8 @@ a {
 
 .footer {
     background-color: var(--main-bg-color);
-    height: 163px;
+    min-height: 163px;
+    height: fit-content;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
 }
@@ -386,7 +387,7 @@ a {
 .filters-button {
     border-radius: 50px;
     background: none;
-    border: 1px solid var(--border);
+    border: 2px solid var(--border);
     height: 50px;
     display: flex;
     align-items: center;
@@ -562,6 +563,14 @@ a {
 
     .filters-label, .filters button:not(:last-child) {
         margin-right: 0;
+    }
+
+    .filters-label {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        width: min(100%, 335px);
+        margin: 0 auto var(--small-space);
     }
 
     .filters-button {
