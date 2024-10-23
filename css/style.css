@@ -18,8 +18,6 @@
     --tiny-space: 15px;
 }
 
-
-
 .fa-solid {
     color: var(--main-color);
 }
@@ -98,7 +96,7 @@ a {
     padding: 0 10px;
 }
 
-.vertical-card .card-txt h3{
+.vertical-card .card-txt .card-title{
     padding-bottom: 8px;
 }
 
@@ -133,7 +131,7 @@ a {
     padding: var(--medium-space) 0;
 }
 
-.hebergements-cards a{
+.hebergements-cards a {
     width: 100%;
     height: 207px;
 }
@@ -217,7 +215,7 @@ a {
     border-top-right-radius: 20px;
 }
 
-.card-activities h3 {
+.card-activities .card-title {
     height: 59px;
     align-content: center;
     padding: 0 19px;
@@ -488,7 +486,7 @@ a {
         height: 200px;
     }
 
-    .card-activities h3 {
+    .card-activities .card-title {
         height: 70px;
     }
 
@@ -676,7 +674,7 @@ a {
         height: 141px;
     }
 
-    .card-activities h3 {
+    .card-activities .card-title {
         height: 59px;
     }
 
