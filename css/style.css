@@ -312,6 +312,7 @@ a {
 .searchbar {
     display: flex;
     height: 49px;
+    width: 377px;
 }
 
 .searchbar>* {
@@ -319,8 +320,8 @@ a {
 }
 
 .search-icon {
-    width: 50px;
     display: flex;
+    width: 50px;
     justify-content: center;
     align-items: center;
     background-color: var(--main-bg-color);
@@ -378,8 +379,8 @@ a {
     align-items: center;
 }
 
-.filters-label {
-    margin-right: 7.5px;
+.filters-label, .filters button:not(:last-child) {
+    margin-right: var(--tiny-space);
 }
 
 .filters-button {
@@ -391,7 +392,7 @@ a {
     align-items: center;
     justify-content: center;
     padding: 15px 19px;
-    margin: 0 7.5px;
+
 }
 
 .filters-button span {
@@ -530,12 +531,12 @@ a {
     }
 
     .searchbar {
-        width: min(335px, 89%);
+        width: min(100%, 335px);
         margin: auto;
     }
 
     .search-input {
-        width: min(236px, 63%);
+        width: 70%;
     }
     
     .searchbar>* {
@@ -553,12 +554,19 @@ a {
     .filters-buttons {
         display: flex;
         flex-wrap: wrap;
-        justify-content: space-evenly;
+        justify-content: space-between;
+        width: min(100%, 335px);
+        margin: 0 auto;
+    }
+
+
+    .filters-label, .filters button:not(:last-child) {
+        margin-right: 0;
     }
 
     .filters-button {
-        width: 163px;
-        margin-bottom: var(--small-space);
+        width: min(48.5%, 162.5px);
+        margin: 0 0 var(--small-space) 0;
     }
 
     .filters-button span {
