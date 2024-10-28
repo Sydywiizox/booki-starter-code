@@ -420,6 +420,7 @@ main>* {
 .filters-button .filters-span {
     font-weight: 700;
     font-size: 17px;
+    text-transform: capitalize;
 }
 
 .filters-button:hover{
