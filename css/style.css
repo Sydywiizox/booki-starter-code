@@ -31,6 +31,10 @@ body {
     font-weight: 400;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 a {
     color: inherit;
     text-decoration: none;
