@@ -328,7 +328,7 @@ main>* {
 }
 
 .search-icon .icon {
-    height: 20px;
+    height: 18px;
     color: #000;
 }
 
@@ -337,7 +337,7 @@ main>* {
     width: 195px;
     border-top: 1px solid var(--main-bg-color);
     border-bottom: 1px solid var(--main-bg-color);
-    text-align: center;
+    padding-left: 25px;
 }
 
 .search-submit {
@@ -413,7 +413,8 @@ main>* {
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 15px 19px;
+    padding: 4px 19px;
+    gap: 10px;
 
 }
 
@@ -428,8 +429,7 @@ main>* {
 }
 
 .filters-button .icon {
-    padding-right: 10px;
-    font-size: 22px;
+    font-size: 20px;
 }
 
 .info {
@@ -562,7 +562,7 @@ main>* {
         width: 70%;
     }
     
-    .searchbar>* {
+    .searchbar>*:not(.search-input) {
         padding: 0;
     }
     
@@ -666,9 +666,13 @@ main>* {
     }
 
     .activities-cards .card-a {
-        width: min(315px, 84%);
+        width: min(315px, 100%);
         margin: auto;
         margin-top: var(--tiny-space);
+    }
+
+    .activities-cards .card-a:first-child {
+        margin-top: 0;
     }
 
     .activities-cards .card-img {
