@@ -137,11 +137,7 @@ h3, .big-font {
 .search-area {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
-}
-
-.search-area > *:not(:last-child) {
-    margin-bottom: var(--big-space);
+    gap: var(--big-space);
 }
 
 /******* Searchbar ******/
